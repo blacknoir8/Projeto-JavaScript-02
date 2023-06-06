@@ -5,7 +5,7 @@ document.querySelector('#push').onclick = function (){
     else{
         document.querySelector('#tasks').innerHTML += `<div class="task">
                                                             <span id="taskname">
-                                                                 ${document.querySelector('#newtask input').value} 
+                                                                 ${document.querySelector('entrada de nova tarefa').value} 
                                                             </span>
                                                             <button class="delete">
                                                             <i class="fa-solid fa-trash-can"></i>
